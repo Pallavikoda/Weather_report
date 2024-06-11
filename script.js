@@ -142,7 +142,7 @@ window.onload = function() {
 };
 
 async function getWeatherData(city) {
-    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}`;
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
     const response = await fetch(apiUrl);
     if (!response.ok) {
         throw new Error("Couldn't fetch data");
