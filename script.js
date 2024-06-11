@@ -128,7 +128,7 @@ function addFooter() {
     const footer = document.createElement('footer');
 
     // Add content to the footer
-    footer.textContent = "This is made by pavankoda if you and to use take permisson";
+    footer.textContent = "This is made by pallavi_koda if you and to use take permisson";
 
     // Optionally, you can add styling or additional attributes to the footer here
 
